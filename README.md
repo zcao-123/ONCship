@@ -17,13 +17,13 @@ The final release format, download instructions, and dataset documentation will 
 
 ## Citation
 
-@article{cao2026oncship,
-  title={ONCship: A Large-Scale Underwater Acoustic Corpus for Ship Recognition},
-  author={Cao, Zhe and Zhang, Jichao and Zhang, Xiao-Lei},
-  journal={arXiv preprint arXiv:2610.19722},
-  year={2026},
-  doi={10.48550/arXiv.2610.19722},
-  url={https://arxiv.org/abs/2610.19722}
+@article{cao2026oncship,\
+  title={ONCship: A Large-Scale Underwater Acoustic Corpus for Ship Recognition},\
+  author={Cao, Zhe and Zhang, Jichao and Zhang, Xiao-Lei},\
+  journal={arXiv preprint arXiv:2610.19722},\
+  year={2026},\
+  doi={10.48550/arXiv.2610.19722},\
+  url={https://arxiv.org/abs/2610.19722}\
 }
 
 ## Updates
