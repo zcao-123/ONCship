@@ -15,16 +15,26 @@ We are currently preparing the dataset for release. The specific distribution fo
 
 The final release format, download instructions, and dataset documentation will be announced here.
 
+## License and Redistribution
+
+The license and redistribution conditions for the ONCship dataset are currently being finalized. Once confirmed, the applicable license and redistribution terms will be published in this GitHub repository.
+
+Users must also respect the rights, usage conditions, and attribution requirements associated with the original Ocean Networks Canada (ONC) recordings and AIS data.
+
+Until the license is finalized, please refer to this repository for updates regarding dataset usage and redistribution permissions.
+
 ## Citation
 
-@article{cao2026oncship,\
-  title={ONCship: A Large-Scale Underwater Acoustic Corpus for Ship Recognition},\
-  author={Cao, Zhe and Zhang, Jichao and Zhang, Xiao-Lei},\
-  journal={arXiv preprint arXiv:2610.19722},\
-  year={2026},\
-  doi={10.48550/arXiv.2610.19722},\
-  url={https://arxiv.org/abs/2610.19722}\
+```bibtex
+@article{cao2026oncship,
+  title={ONCship: A Large-Scale Underwater Acoustic Corpus for Ship Recognition},
+  author={Cao, Zhe and Zhang, Jichao and Zhang, Xiao-Lei},
+  journal={arXiv preprint arXiv:2610.19722},
+  year={2026},
+  doi={10.48550/arXiv.2610.19722},
+  url={https://arxiv.org/abs/2610.19722}
 }
+```
 
 ## Updates
 
