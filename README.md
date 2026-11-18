@@ -1,7 +1,7 @@
 <!-- ONCship project landing page. Keep dataset access and license statements synchronized with the Hugging Face dataset card. -->
 
 <p align="center">
-  <img src="assets/oncship-banner.svg" alt="ONCship — underwater acoustic vessel recognition dataset" width="100%" />
+  <img src="oncship-banner.svg" alt="ONCship — underwater acoustic vessel recognition dataset" width="100%" />
 </p>
 
 <h1 align="center">ONCship</h1>
