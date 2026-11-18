@@ -49,18 +49,11 @@ ONCship is designed to facilitate research in underwater acoustic representation
 | **Research tasks** | Self-supervised pre-training · Vessel-type classification · MMSI-level identification |
 | **Dedicated individual-vessel benchmark** | 100 hours · 50 vessel identities |
 
-
 ## Dataset Construction
 
-```mermaid
-flowchart LR
-    A[ONC hydrophone recordings] --> C[Data curation and alignment]
-    B[AIS vessel information] --> C
-    C --> D[ONCship corpus and metadata]
-    D --> E[Acoustic representation learning]
-    D --> F[Vessel-type classification]
-    D --> G[MMSI-level vessel identification]
-```
+<p align="center">
+  <img src="data_collection1.jpg" alt="ONCship dataset construction workflow" width="85%" />
+</p>
 
 ONCship brings together real-world underwater sound recordings and vessel context. The recording environments include single-vessel presence, overlapping vessel activity, and intervals without detected ship activity.
 
@@ -107,20 +100,3 @@ If you use ONCship in your research, please cite:
   doi     = {10.48550/arXiv.2610.19722},
   url     = {https://arxiv.org/abs/2610.19722}
 }
-```
-
-## License and Data Use
-
-The ONCship project's final license and redistribution conditions should be confirmed against the latest dataset release documentation. Users should respect all applicable rights, terms of use, and attribution requirements associated with **Ocean Networks Canada** recordings and the corresponding AIS data.
-
-**Until clear permissions are published, please do not assume that original audio files can be freely redistributed.**
-
-## Acknowledgements
-
-The authors acknowledge **Ocean Networks Canada (ONC)** as the source of the underwater hydrophone recordings and the associated AIS vessel information used to curate this corpus.
-
----
-
-<p align="center">
-  <sub>ONCship · Underwater Acoustics · Passive Acoustic Monitoring · Vessel Recognition</sub>
-</p>
