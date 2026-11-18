@@ -49,7 +49,6 @@ ONCship is designed to facilitate research in underwater acoustic representation
 | **Research tasks** | Self-supervised pre-training · Vessel-type classification · MMSI-level identification |
 | **Dedicated individual-vessel benchmark** | 100 hours · 50 vessel identities |
 
-> **Dataset availability:** Visit the [Hugging Face dataset repository](https://huggingface.co/datasets/zcao123/ONCship/tree/main) to see the currently published files and metadata. The availability of original audio waveforms, download procedures, and redistribution rights should be checked separately; a dataset page does not necessarily imply that all source audio is redistributed.
 
 ## Dataset Construction
 
@@ -76,14 +75,6 @@ ONCship brings together real-world underwater sound recordings and vessel contex
 ## Benchmark Highlights
 
 The accompanying [paper](https://arxiv.org/abs/2610.19722) reports the following representative results.
-
-| Evaluation | Setting | Result |
-| :--- | :--- | ---: |
-| **DeepShip** | Linear probing; EAT features, joint AudioSet + ONCship pre-training | **62.45% accuracy** |
-| **MMSI-level individual-vessel classification** | Closed-set benchmark (50 vessel identities); EAT with cross-entropy | **53.12% Top-1** |
-| **MMSI-level individual-vessel classification** | Same setting as above | **69.57% Top-5** |
-
-These values describe specific experimental configurations and should not be interpreted as a leaderboard or as results obtained from every released data subset. For full evaluation protocols and further results, please consult the paper.
 
 ## Access the Dataset
 
